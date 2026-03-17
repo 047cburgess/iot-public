@@ -34,16 +34,9 @@ spec:
 
 ---
 apiVersion: v1
-kind: Endpoint
+kind: Endpoints
 metadata:
   name: whatami
-  namespace: dev
-
----
-apiVersion: v1
-kind: EndpointSlice
-metadata:
-  name: whoareyou
   namespace: dev
 
 ---
