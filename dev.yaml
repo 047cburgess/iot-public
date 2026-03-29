@@ -32,4 +32,4 @@ spec:
         - name: will
           image: wil42/playground:v3
           ports:
-          - containerPort: 8888
+            - containerPort: 8888
